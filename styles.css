@@ -1,0 +1,70 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.color {
+  background-color: lightgray;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  height: 100px;
+  width: 500px;
+}
+
+.one {
+  background: rgb(255, 255, 255);
+  text-align: center;
+  height: 80px;
+  width: 1150px;
+}
+
+.flex-container-body {
+  display: flex;
+  justify-content: center;
+}
+
+.two {
+  background: rgb(255, 255, 255);
+  display: inline-table;
+  margin-top: 100px;
+}
+
+.child-1 {
+  background: rgb(255, 255, 255);
+  height: 10px;
+  width: auto;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.child-2 {
+  background: rgb(255, 255, 255);
+  height: 10px;
+  width: auto;
+  padding: 10px;
+  font-style: italic;
+  color: lightgray;
+}
+
+.child-3 > img {
+  width: 500px;
+  height: 300px;
+}
+
+.child-4 {
+  background: rgb(255, 255, 255);
+  height: 10%;
+  padding: 10px;
+}
+
+.exception {
+  display: flex;
+  justify-content: space-between;
+}
